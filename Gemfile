@@ -40,6 +40,10 @@ gem 'bootsnap', '>= 1.1.0', require: false
 gem 'bootstrap', '~> 4.1.3'
 gem 'jquery-rails'
 # ------------- ここまで -------------------
+# ------------- 下記を追加 ----------------
+gem 'ransack'
+# ransackの下に追記します。
+gem 'kaminari'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
